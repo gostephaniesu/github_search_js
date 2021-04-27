@@ -45,10 +45,15 @@ h2 em {
 }
 #search {
   padding: 5px 10px;
-  width: 500px;
+  width: 450px;
   background: #78c9b2;
   border: 0;
   color: #fff;
+}
+@media (max-width: 480px) {
+  #search {
+    width: 100%;
+  }
 }
 .d-flex {
   display: flex;
